@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap");
+
+html {
+  --my-red: hsl(1, 90%, 64%);
+  --my-blue: hsl(219, 85%, 26%);
+  --my-white: hsl(0, 0%, 100%);
+  --very-light-grayish-blue: hsl(210, 60%, 98%);
+  --light-grayish-blue: hsl(205, 33%, 90%);
+  --grayish-blue: hsl(219, 14%, 63%);
+  --dark-grayish-blue: hsl(219, 12%, 42%);
+  --very-dark-blue: hsl(224, 21%, 14%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--very-light-grayish-blue);
+  color: var(--dark-grayish-blue);
+  font-family: "Plus Jakarta Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  margin: 50px auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+header div {
+  display: flex;
+}
+
+.notification-container h4 {
+  margin-left: 25px;
+  background-color: var(--my-blue);
+  padding: 3px 12px 0 12px;
+  color: var(--my-white);
+  border-radius: 5px;
+}
+
+.notification-container {
+  width: 650px;
+  height: 800px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 5px 5px var(---light-grayish-blue);
+}
+
+.avatar {
+  height: 50px;
+  margin-right: 25px;
+}
+
+.unmarked {
+  background-color: var(--very-light-grayish-blue);
+}
+
+.notification {
+  border-radius: 10px;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: start;
+}
+
+.menssage {
+  margin-top: 10px;
+  border: var(--light-grayish-blue) solid 1px;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.coment {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mark-red {
+  font-size: 8px;
+}
+
+.mark-blue {
+  color: var(--my-blue);
+  font-weight: 800;
+}
+
+.mark-name {
+  font-weight: 800;
+  color: var(--very-dark-blue);
+}
+
+/* .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+*/
