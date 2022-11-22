@@ -100,6 +100,10 @@ header div {
   color: var(--very-dark-blue);
 }
 
+.mark-notification {
+  font-weight: 800;
+}
+
 /* .attribution {
   font-size: 11px;
   text-align: center;
