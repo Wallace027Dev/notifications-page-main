@@ -59,6 +59,11 @@ header div {
   margin-right: 25px;
 }
 
+.mark-read,
+.notification {
+  cursor: pointer;
+}
+
 .unmarked {
   background-color: var(--very-light-grayish-blue);
 }
@@ -104,13 +109,27 @@ header div {
   font-weight: 800;
 }
 
+.notification:hover {
+  -webkit-transform: scale(1.01);
+  transform: scale(1.01);
+}
+.menssage:hover {
+  transition: all 0.5s;
+  background-color: var(--light-grayish-blue);
+}
+
 @media (max-width: 700px) {
   .notification {
-    margin-top: 50px;
+    margin-top: 25px;
   }
 
   body {
     background-color: var(--my-white);
+    margin: 5px auto;
+  }
+
+  .avatar {
+    height: 40px;
   }
 }
 
