@@ -35,10 +35,10 @@ header div {
   display: flex;
 }
 
-.notification-container h4 {
+.notification-number {
   margin-left: 25px;
   background-color: var(--my-blue);
-  padding: 3px 12px 0 12px;
+  padding: 2px 12px 2px 12px;
   color: var(--my-white);
   border-radius: 5px;
 }
