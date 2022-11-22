@@ -104,6 +104,16 @@ header div {
   font-weight: 800;
 }
 
+@media (max-width: 700px) {
+  .notification {
+    margin-top: 50px;
+  }
+
+  body {
+    background-color: var(--my-white);
+  }
+}
+
 /* .attribution {
   font-size: 11px;
   text-align: center;
