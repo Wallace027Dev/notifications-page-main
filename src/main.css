@@ -46,7 +46,7 @@ header div {
 .notification-container {
   width: 650px;
   height: 800px;
-  background-color: white;
+  background-color: var(--my-white);
   display: flex;
   flex-direction: column;
   padding: 25px;
